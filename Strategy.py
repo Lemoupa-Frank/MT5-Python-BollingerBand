@@ -7,10 +7,10 @@ import pandas as pd
 SYMBOL = "EURUSD"
 TIMEFRAME = mt5.TIMEFRAME_M1
 Tradevolume = 0.01
-Deviation = 5
-Magic = 10
-SMA_PERIOD = 20
-STANDARD_DEV = 2
+Deviation = 5 
+Magic = 10 //automated trade identify helps identify which took what trade
+SMA_PERIOD = 20 // simple moving average 
+STANDARD_DEV = 2 //Bollinger Band Deviation
 close = "close"
 open = "open"
 TP = 2
