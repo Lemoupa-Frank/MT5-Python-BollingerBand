@@ -77,7 +77,7 @@ def get_signal():
         # connect to platform
 
 
-if not mt5.initialize(login=5005468062, server="MetaQuotes-Demo", password="1tlbstiz", timeout=20000):
+if not mt5.initialize(login=accountID, server="Server name", password="password", timeout=delaytime_in_seconds):
     print("initialize() failed")
     mt5.shutdown()
 else:
