@@ -3,4 +3,4 @@ A simple code to cannect to metatrader to execute an order based on bollinger ba
 # Requirements 
 -Installed Metatrader 5
 -Python code editor or IDE
--Metatrader account 
+-Metatrader account (to replace login variables with yours)
